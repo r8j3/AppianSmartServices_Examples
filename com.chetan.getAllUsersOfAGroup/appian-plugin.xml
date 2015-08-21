@@ -1,0 +1,13 @@
+<appian-plugin name="getAllUsersOfAGroup" key="com.chetan.getallusersofagroup">
+
+  <plugin-info>
+    <description>getAllUsersOfAGroup</description>
+    <vendor name="Appian Corporation" url="http://www.appian.com" />
+    <version>1.0.0</version>
+    <application-version min="6.1.0" />
+  </plugin-info>
+
+
+  <smart-service name="GetAllUsersOfAGroup" key="GetAllUsersOfAGroup"
+    class="com.chetan.Main.GetAllusersOfAGroup" />
+</appian-plugin>
